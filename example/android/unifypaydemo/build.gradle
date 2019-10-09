@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+repositories {
+    maven {
+        name = 'Maven Central Repo' //optional name
+        url = 'http://repo1.maven.org/maven2/'
+    }
+    maven {
+        url = 'http://jcenter.bintray.com/'
+    }
+    maven {
+        url = 'https://maven.aliyun.com/repository/jcenter'
+    }
+}
+android {
+    compileSdkVersion 26
+    buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.sinonet.chinaums"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        ndk{
+            abiFilters "armeabi", "armeabi-v7a"
+        }
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir{
+            dirs 'libs'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation 'junit:junit:4.12'
+
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.1.4'
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.google.zxing:android-core:3.2.1'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'de.akquinet.android.androlog:androlog-project:1.0.1'
+    implementation 'org.apache.commons:commons-lang3:3.3'
+    implementation 'com.alibaba:fastjson:1.1.45'
+    implementation 'com.madgag:sc-light-jdk15on:1.47.0.2'
+    implementation 'commons-codec:commons-codec:1.8'
+    api(name: 'qmf-ppplugin-android-3.0.5', ext: 'aar')
+
+}

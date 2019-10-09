@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/startpage"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/widget38"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/head_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dip"
+                android:text="@string/orderpay_titile"
+                android:textColor="@color/color_3"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_center1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/input_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_billsMID"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="商户号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/merchantId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_billsMID"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="商户号"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="898330572300006"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_billsTID"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="商户用户号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/merchantUserId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_billsTID"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="商户用户号"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="3028201705071221163636273176"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_agentMer"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="代理商户号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/agentMerchantId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_agentMer"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="代理商户号"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="898370027410113"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp">
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_merOrderID"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="商户订单号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/merOrderID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_merOrderID"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="商户订单号"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="3028201706071643296761718482"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_amount"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="交易金额"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_amount"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="交易金额"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="100"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_mobileId"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="用户手机号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/mobileId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_mobileId"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:gravity="center_vertical"
+                    android:hint="请输入手机号"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="18221704629"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_notifyUrlId"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="商户通知地址"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/notifyUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_notifyUrlId"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入商户通知地址"
+                    android:inputType="phone"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_terminerid"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="终端号"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/terminerid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_terminerid"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入终端号"
+                    android:text="shijie89"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_msgsrc"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="消息来源"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/edit_msgsrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_msgsrc"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp"
+                    android:text="ERP_SCANPAY"
+                    />
+
+                <!--<cn.swiftpass.wftpay.ClearEditText
+                    android:id="@+id/msgsrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_msgsrc"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入消息来源"
+                    android:text="ERP_SCANPAY"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </cn.swiftpass.wftpay.ClearEditText>-->
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_src_reserve"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="srcReserve"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/edit_src_reserve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_src_reserve"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入"
+                    android:text="内容长度不大于255"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </com.sinonet.chinaums.ClearEditText>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="27dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_environment"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="环境"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_environment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_environment"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textSize="18sp"
+                    android:entries="@array/envEntires"
+                    />
+
+                <!--<cn.swiftpass.wftpay.ClearEditText
+                    android:id="@+id/msgsrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tv_msgsrc"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入消息来源"
+                    android:text="ERP_SCANPAY"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/input_text"
+                    android:textColorHint="@color/input_text"
+                    android:textSize="18sp" >
+                </cn.swiftpass.wftpay.ClearEditText>-->
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_text"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="18sp"
+                android:text="secureTransaction:"
+                />
+            <RadioGroup
+                android:id="@+id/radio_group_secure_transaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColor="@color/input_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <RadioButton
+                    android:id="@+id/secure_transaction_true"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="true"
+                    android:checked="false"
+                    />
+                <RadioButton
+                    android:id="@+id/secure_transaction_false"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="false"
+                    android:checked="true"
+                    />
+            </RadioGroup>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_text"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dip"
+                android:textSize="18sp"
+                android:text="支付方式:"
+                />
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColor="@color/input_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <RadioButton
+                    android:id="@+id/poston_pay"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="Poston"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/weixin_pay"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="Weixin"
+                    android:checked="false"
+                    />
+
+                <RadioButton
+                    android:id="@+id/alibaba_pay"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="AliPay"
+                    android:checked="false"
+                    />
+                <RadioButton
+                    android:id="@+id/cloud_quick_pay"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/input_text"
+                    android:text="云闪付"
+                    android:checked="false"
+                    />
+            </RadioGroup>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:background="@color/mpos_gray_line" />
+            <CheckBox
+                android:id="@+id/cb_division"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="是否分帐"/>
+            <LinearLayout
+                android:id="@+id/layout_division"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_platform_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="平台分账金额"
+                        android:textColor="@color/input_text"
+                        android:textSize="18sp" />
+
+                    <com.sinonet.chinaums.ClearEditText
+                        android:id="@+id/platform_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/tv_platform_amount"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="请输入平台商户分账金额"
+                        android:singleLine="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/input_text"
+                        android:textColorHint="@color/input_text"
+                        android:textSize="18sp" >
+                    </com.sinonet.chinaums.ClearEditText>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:background="@color/mpos_gray_line" />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_sub_mid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="子商户号"
+                        android:textColor="@color/input_text"
+                        android:textSize="18sp" />
+
+                    <com.sinonet.chinaums.ClearEditText
+                        android:id="@+id/sub_mid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/tv_sub_mid"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="请输入子商户号"
+                        android:singleLine="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/input_text"
+                        android:textColorHint="@color/input_text"
+                        android:textSize="18sp"
+                        android:text="898201812270018">
+                    </com.sinonet.chinaums.ClearEditText>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:background="@color/mpos_gray_line" />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_sub_mer_orderId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="商户子订单号 "
+                        android:textColor="@color/input_text"
+                        android:textSize="18sp"/>
+
+                    <com.sinonet.chinaums.ClearEditText
+                        android:id="@+id/sub_mer_orderId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/tv_sub_mer_orderId"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="请输入商户子订单号 "
+                        android:singleLine="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/input_text"
+                        android:textColorHint="@color/input_text"
+                        android:textSize="18sp">
+                    </com.sinonet.chinaums.ClearEditText>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:background="@color/mpos_gray_line" />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_sub_total_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="子商户分账金额"
+                        android:textColor="@color/input_text"
+                        android:textSize="18sp" />
+
+                    <com.sinonet.chinaums.ClearEditText
+                        android:id="@+id/sub_total_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/tv_sub_total_amount"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="请输入子商户分账金额"
+                        android:singleLine="true"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/input_text"
+                        android:textColorHint="@color/input_text"
+                        android:textSize="18sp" >
+                    </com.sinonet.chinaums.ClearEditText>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="3dip"
+                    android:layout_marginRight="3dip"
+                    android:background="@color/mpos_gray_line" />
+                <ImageView
+                    android:id="@+id/bt_add_division_info"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/add"/>
+                <com.sinonet.chinaums.ClearEditText
+                    android:id="@+id/et_division_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:scrollbars="vertical"
+                    android:background="@null"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_bottom2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_order_pay"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_bg"
+                android:text="@string/orderpay_payment"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_callback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/mpos_callback"
+                    android:textColor="#ff000000"
+                    android:textSize="18sp" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

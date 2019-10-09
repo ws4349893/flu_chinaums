@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payTypes">
+		<item>微信扫码支付</item>
+		<item>手Q扫码支付</item>
+		<item>支付宝扫码支付</item>
+		<item>微信app支付</item>
+		<item>支付宝app支付</item>
+	</string-array>
+
+	<string-array name="msgSrcType">
+		<item>ERP_SCANPAY</item>
+		<item>NETPAY</item>
+		<item>APPPAY</item>
+	</string-array>
+
+	<string-array name="envEntires">
+		<!--
+
+		<item>本地</item>
+		-->
+		<item>生产</item>
+		<item>测试一</item>
+		<item>测试二</item>
+		<item>测试UAT</item>
+	</string-array>
+</resources>
