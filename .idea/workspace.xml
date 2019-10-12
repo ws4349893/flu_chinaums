@@ -1,7 +1,426 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026b916b-fddd-4072-a25d-842a8356f438" name="Default Changelist" comment="" />
+    <list default="true" id="026b916b-fddd-4072-a25d-842a8356f438" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayFastPay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayOrder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayPluginSettings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayPosPay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayUnifyPayPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UMSPPPayVersionsInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/UPPaymentControl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/WXApi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/WXApiObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/WechatAuthSDK.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/libPaymentControl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/libUMSPosPayOnly.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/libWeChatSDK.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0302.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0308.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/0410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStong_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStong_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_next@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_QRLogo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_QRLogo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_accountLogo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_accountLogo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_addNewCard@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_addNewCard@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_addNewCard_arrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_addNewCard_arrow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_add_card_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_add_card_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_agree@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_agree@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_back_white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_back_white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_bank_selected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_bank_selected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_cardSelected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_cardSelected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_bg@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_bg@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_expired@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_expired@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_history@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_history@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_placeholder@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_placeholder@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_selected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_selected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_unselected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_unselected@3x.png@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_used@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_coupon_used@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_disagree@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_disagree@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_fastPayBackGround@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_fastPayBackGround@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_guanyuwomen_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_guanyuwomen_icon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_help_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_help_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_orange_back_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_orange_back_icon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_password_frame@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_password_frame@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_payFailed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_payFailed@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_paySuccess@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_paySuccess@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumOpen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumOpen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumSelected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_prettySumSelected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_quanminhua@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_quanminhua@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_quanminhua_log@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_quanminhua_log@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_set_up@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_set_up@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_setting_more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_setting_more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_trade_fail@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_trade_fail@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_trade_success@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_trade_success@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_ums_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_ums_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_warning_orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_warning_orange@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_zhifufangshi_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POS_zhifufangshi_back@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_blue@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_choice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_choice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_default@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_default@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_gray@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_coupon_gray@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_disuse_coupon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_disuse_coupon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_enablecoupon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_enablecoupon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yiguoqi@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yiguoqi@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yishiyong@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/POStong_yishiyong@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/alipay_msp_arrow_left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/alipay_msp_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/balance_pay_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/beijin_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_10@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_10@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_1@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_2@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_3@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_4@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_4@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_5@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_6@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_7@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_7@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_8@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_8@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_9@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/char_9@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/dongya 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/dongya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/dongying_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/gongshang_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/guangda_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/guangfa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/henfeng 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/henfeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/huaqi 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/huaqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/huaxia_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/jianshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/jiaotong_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/minshen_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/moren_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/nongye_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/payment_setting@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/pingan_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/pufa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/qmf_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/shanghai_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/shengfa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_loading_custom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_loading_custom@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_pos_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_secKeyboard_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_smallPos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_start_full2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_start_full@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_start_full@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_start_full_custom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/ums_start_full_custom@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/xingye_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/youzheng_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhada 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhaoshang_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhifufangshi_add@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhongguo_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/PosPay_Resource.bundle/zhongxin_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/UMSSecKeyboardLibResource.bundle/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/res/UMSSecKeyboardLibResource.bundle/UMSBin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayFastPay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayOrder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayPluginSettings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayPosPay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayUnifyPayPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UMSPPPayVersionsInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/UPPaymentControl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/WXApi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/WXApiObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/WechatAuthSDK.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/libPaymentControl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/libUMSPosPayOnly.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/libWeChatSDK.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0302.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0308.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/0410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStong_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStong_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_delete@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_next@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_POStongzhifu_next@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_QRLogo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_QRLogo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_accountLogo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_accountLogo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_addNewCard@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_addNewCard@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_addNewCard_arrow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_addNewCard_arrow@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_add_card_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_add_card_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_agree@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_agree@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_back_white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_back_white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_bank_selected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_bank_selected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_cardSelected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_cardSelected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_close@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_bg@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_bg@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_expired@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_expired@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_history@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_history@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_placeholder@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_placeholder@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_selected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_selected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_unselected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_unselected@3x.png@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_used@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_coupon_used@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_disagree@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_disagree@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_fastPayBackGround@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_fastPayBackGround@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_guanyuwomen_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_guanyuwomen_icon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_help_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_help_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_orange_back_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_orange_back_icon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_password_frame@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_password_frame@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_payFailed@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_payFailed@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_paySuccess@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_paySuccess@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumClose@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumClose@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumOpen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumOpen@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumSelected@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_prettySumSelected@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_quanminhua@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_quanminhua@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_quanminhua_log@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_quanminhua_log@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_set_up@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_set_up@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_setting_more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_setting_more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_trade_fail@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_trade_fail@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_trade_success@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_trade_success@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_ums_logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_ums_logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_warning_orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_warning_orange@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_zhifufangshi_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POS_zhifufangshi_back@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_blue@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_choice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_choice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_default@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_default@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_gray@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_coupon_gray@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_disuse_coupon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_disuse_coupon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_enablecoupon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_enablecoupon@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yiguoqi@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yiguoqi@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yishiyong@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/POStong_yishiyong@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/alipay_msp_arrow_left@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/alipay_msp_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/balance_pay_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/beijin_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_10@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_10@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_1@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_2@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_3@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_4@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_4@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_5@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_6@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_7@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_7@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_8@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_8@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_9@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/char_9@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/dongya 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/dongya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/dongying_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/gongshang_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/guangda_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/guangfa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/henfeng 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/henfeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/huaqi 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/huaqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/huaxia_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/jianshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/jiaotong_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/minshen_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/moren_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/nongye_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/payment_setting@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/pingan_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/pufa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/qmf_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/shanghai_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/shengfa_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_loading_custom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_loading_custom@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_pos_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_secKeyboard_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_smallPos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_start_full2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_start_full@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_start_full@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_start_full_custom@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/ums_start_full_custom@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/xingye_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/youzheng_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhada 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhaoshang_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhifufangshi_add@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhongguo_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/PosPay_Resource.bundle/zhongxin_bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/UMSSecKeyboardLibResource.bundle/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/res/UMSSecKeyboardLibResource.bundle/UMSBin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/titilife/flu_chinaums/FluChinaumsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/titilife/flu_chinaums/FluChinaumsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/android/src/main/kotlin/com/titilife/flu_chinaums/FluChinaumsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/android/src/main/kotlin/com/titilife/flu_chinaums/FluChinaumsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/FluChinaumsPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/FluChinaumsPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/FluChinaumsPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/Classes/FluChinaumsPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/flu_chinaums.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/ios/flu_chinaums.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/lib/flu_chinaums.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flu_chinaums/lib/flu_chinaums.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/flu_chinaums.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flu_chinaums.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flu_chinaums.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flu_chinaums.dart" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -15,12 +434,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/flu_chinaums.dart">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="116">
+              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftFluChinaumsPlugin.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ios/flu_chinaums.podspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -28,8 +465,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="57" />
+            <state relative-caret-position="116">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -37,20 +474,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flu_chinaums.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>error</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.m" />
         <option value="$PROJECT_DIR$/lib/flu_chinaums.dart" />
+        <option value="$PROJECT_DIR$/ios/flu_chinaums.podspec" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2203" />
-    <option name="y" value="-152" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1632" />
     <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -58,30 +516,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flu_chinaums" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flu_chinaums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flu_chinaums" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flu_chinaums" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flu_chinaums" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flu_chinaums" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,6 +526,21 @@
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios" />
+      <recent name="$PROJECT_DIR$/ios/Classes" />
+      <recent name="$PROJECT_DIR$/ios/Lib" />
+      <recent name="$PROJECT_DIR$/ios/res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios" />
+      <recent name="$PROJECT_DIR$/ios/Libraries" />
+      <recent name="$PROJECT_DIR$/ios/Assets" />
+      <recent name="$PROJECT_DIR$/ios/Lib" />
+      <recent name="$PROJECT_DIR$/ios/res" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,8 +568,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1632" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1633" height="1027" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" />
@@ -126,7 +577,7 @@
       <window_info id="Resources Explorer" order="4" />
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.21698113" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.21621622" />
       <window_info id="Designer" order="8" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.2224599" />
       <window_info anchor="bottom" id="TODO" order="1" />
@@ -134,11 +585,12 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.16256684" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.16042781" />
       <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.35828876" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
@@ -148,20 +600,84 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/WXApiObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/UMSPPPayVersionsInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/WechatAuthSDK.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftFluChinaumsPlugin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="116">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/FluChinaumsPlugin.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/flu_chinaums.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="525">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/UPPaymentControl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/flu_chinaums.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

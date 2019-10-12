@@ -25,7 +25,7 @@ class FluChinaumsPlugin: MethodCallHandler {
 
     if (call.method == "getPlatformVersion") {
       result.success("Android ${android.os.Build.VERSION.RELEASE}")
-    } else if (call.method == "payWx") {
+    } else if (call.method == "payWithUms") {
       pay(call,result)
     } else {
       result.notImplemented()

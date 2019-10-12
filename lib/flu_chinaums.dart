@@ -23,7 +23,7 @@ class FluChinaums {
         @required String sign,
         String signType,
         String extData}) async {
-    return await _channel.invokeMethod("payWx", {
+    return await _channel.invokeMethod("payWithUms", {
       "appId": appId,
       "partnerId": partnerId,
       "prepayId": prepayId,

@@ -1,0 +1,22 @@
+PODS:
+  - flu_chinaums (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - flu_chinaums (from `.symlinks/plugins/flu_chinaums/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
+
+EXTERNAL SOURCES:
+  flu_chinaums:
+    :path: ".symlinks/plugins/flu_chinaums/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+
+SPEC CHECKSUMS:
+  flu_chinaums: 126beffc02e042ce72d2775eb251c1c5138fa538
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 10ae9c18d12c9ffc2275c9a159a3b1e281990db0
+
+COCOAPODS: 1.6.0
